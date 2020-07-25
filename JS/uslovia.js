@@ -11,12 +11,12 @@ const num = 50;
 if (num < 49) {
     console.log('Error');
 } else if (num > 100) {
-    console.log('Много')
+    console.log('Много');
 } else {
     console.log('Ok!');
 }
 
-(num == 50) ? console.log('ok') : console.log('не принято');
+const newNum = (num == 50) ? console.log('ok') : console.log('не принято');
 
 const numo = 50;
 
